@@ -10,7 +10,7 @@ It would work best when the server has two or more sockets per node as it tries 
 
 The code, tries to do optmization at these few levels:
 1. SRAM (L1, L2, L3 cache) Memory optmization
-2. SIKMD (Single Instruction Multiple Data) optmization using intrinsics like the AVX-512 instruction set
+2. SIMD (Single Instruction Multiple Data) optmization using intrinsics like the AVX-512 instruction set
 3. OpenMP optmization
 4. NUMA optmization
 4. MPI optmization
